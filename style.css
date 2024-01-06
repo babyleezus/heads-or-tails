@@ -1,10 +1,10 @@
 body {
-    margin: auto;
+    
 }
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    
     gap: 10px;
     justify-content: center;
     align-items: center;
@@ -13,4 +13,21 @@ body {
     width: 500px;
     margin: auto;
     padding: 30px;
+    border-radius: 20px;
+}
+
+
+button {
+    color: antiquewhite;
+    background-color: pink;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+
+}
+
+button:hover {
+    opacity: 60%;
+    cursor: pointer;
 }
