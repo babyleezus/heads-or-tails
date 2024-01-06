@@ -1,0 +1,16 @@
+body {
+    margin: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: antiquewhite;
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+}
